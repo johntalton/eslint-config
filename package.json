@@ -5,7 +5,8 @@
   "exports": {
     "./js": "./src/javascript.json",
     "./ts": "./src/typescript.json",
-    "./es": "./src/module.json"
+    "./es": "./src/module.json",
+    "./node": "./src/node.json"
   },
   "files": [
     "src/**/*.json"

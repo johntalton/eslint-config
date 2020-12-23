@@ -11,9 +11,6 @@
       "es2021": true,
       "mocha": true
     },
-    "plugins": [
-
-    ],
     "parser": "@typescript-eslint/parser",
     "settings": {
       "import/resolver": {

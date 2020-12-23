@@ -28,8 +28,10 @@
     "mocha"
   ],
   "rules": {
-    "semi": [ "error", "never" ],
-
+    "semi": [
+      "error",
+      "never"
+    ],
     "no-console": "off",
     "no-await-in-loop": "error",
     "no-extra-parens": [
@@ -150,7 +152,7 @@
     "no-shadow": "error",
     "no-shadow-restricted-names": "error",
     "no-undef-init": "error",
-    "no-undefined": "off",
+    "no-undefined": "warn",
     "no-use-before-define": "error",
     "no-confusing-arrow": "error",
     "no-duplicate-imports": "error",
@@ -240,7 +242,7 @@
       "error",
       {
         "allow": [
-          "chip/*"
+          "internal/*"
         ]
       }
     ],
