@@ -4,7 +4,7 @@
   "description": "",
   "exports": {
     "./js": "./src/javascript.js",
-    "./ts": "./src/typecript.js",
+    "./ts": "./src/typescript.js",
     "./es": "./src/module.js"
   },
   "files": [
