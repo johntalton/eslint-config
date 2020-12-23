@@ -1,6 +1,6 @@
 // export default const JS_CONF
 module.exports = {
-  rules: [
+  rules: {
     semi: ['error', 'never']
-  ]
+  }
 }
