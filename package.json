@@ -15,5 +15,22 @@
     "url": "git+https://github.com/johntalton/eslint-config.git"
   },
   "author": "johntalton@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependency": {
+    "eslint": ">= 7"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.9.1",
+    "@typescript-eslint/parser": "^4.9.1",
+    "eslint-plugin-fp": "^2.3.0",
+    "eslint-plugin-immutable": "^1.0.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsdoc": "^30.7.8",
+    "eslint-plugin-mocha": "^8.0.0",
+    "eslint-plugin-no-loops": "^0.3.0",
+    "eslint-plugin-no-use-extend-native": "^0.5.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-security": "^1.4.0",
+    "eslint-plugin-spellcheck": "^0.0.17"
+  }
 }
