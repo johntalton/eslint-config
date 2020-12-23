@@ -6,7 +6,6 @@
     "./js": "./src/javascript.js",
     "./ts": "./src/typecript.js"
   },
-  "type": "module",
   "files": [
     "src/**/*.js"
   ],
