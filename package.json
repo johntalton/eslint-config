@@ -4,7 +4,8 @@
   "description": "",
   "exports": {
     "./js": "./src/javascript.js",
-    "./ts": "./src/typecript.js"
+    "./ts": "./src/typecript.js",
+    "./es": "./src/module.js"
   },
   "files": [
     "src/**/*.js"
