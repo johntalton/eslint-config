@@ -1,0 +1,19 @@
+{
+  "name": "@johntalton/eslint-config",
+  "version": "1.0.0",
+  "description": "",
+  "exports": {
+    "js": "./src/javascript.js",
+    "ts": "./src/typecript.js"
+  },
+  "type": "module",
+  "files": [
+    "src/**/*.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johntalton/eslint-config.git"
+  },
+  "author": "johntalton@gmail.com",
+  "license": "MIT"
+}
