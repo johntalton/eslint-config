@@ -28,6 +28,30 @@
     "mocha"
   ],
   "rules": {
+
+
+    "callback-return": "error",
+    "global-require": "error",
+    "handle-callback-err": "error",
+    "no-buffer-constructor": "error",
+    "no-mixed-requires": "error",
+    "no-new-require": "error",
+    "no-path-concat": "error",
+    "no-process-env": "error",
+    "no-process-exit": "error",
+    "no-restricted-modules": "error",
+    "no-sync": "warn",
+
+
+
+
+
+
+
+
+
+
+
     "semi": [
       "error",
       "never"
@@ -44,7 +68,7 @@
     ],
     "no-prototype-builtins": "error",
     "no-template-curly-in-string": "error",
-    "valid-jsdoc": "off",
+    "valid-jsdoc": "warn",
     "array-callback-return": "error",
     "block-scoped-var": "error",
     "class-methods-use-this": "error",
@@ -275,20 +299,6 @@
     "import/no-anonymous-default-export": "error",
     "import/group-exports": "warn",
     "import/dynamic-import-chunkname": "error",
-    "promise/catch-or-return": "error",
-    "promise/no-return-wrap": "error",
-    "promise/param-names": "error",
-    "promise/always-return": "error",
-    "promise/no-native": "warn",
-    "promise/no-nesting": "error",
-    "promise/no-promise-in-callback": "error",
-    "promise/no-callback-in-promise": "error",
-    "promise/avoid-new": "error",
-    "promise/no-new-statics": "error",
-    "promise/no-return-in-finally": "error",
-    "promise/valid-params": "error",
-    "promise/prefer-await-to-then": "warn",
-    "promise/prefer-await-to-callbacks": "error",
     "immutable/no-let": "warn",
     "immutable/no-this": "warn",
     "immutable/no-mutation": "warn",
