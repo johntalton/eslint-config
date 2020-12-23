@@ -8,7 +8,7 @@
     "./es": "./src/module.json"
   },
   "files": [
-    "src/**/*.js"
+    "src/**/*.json"
   ],
   "repository": {
     "type": "git",
