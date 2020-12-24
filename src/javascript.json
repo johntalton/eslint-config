@@ -53,6 +53,6 @@
     "import/no-default-export": "error",
     "import/no-anonymous-default-export": "error",
     "import/group-exports": "warn",
-    "import/dynamic-import-chunkname": "error",
+    "import/dynamic-import-chunkname": "error"
   }
 }
