@@ -6,6 +6,8 @@
     "node": true
   },
   "rules": {
+    "import/no-nodejs-modules": "off",
+
     "node/handle-callback-err": "error",
     "node/no-callback-literal": "error",
     "node/no-new-require": "error",

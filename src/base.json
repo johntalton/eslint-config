@@ -2,9 +2,6 @@
   "root": true,
   "extends": [
     "eslint:recommended",
-    "plugin:import/recommended",
-    "plugin:import/errors",
-    "plugin:import/warnings",
     "plugin:security/recommended",
     "plugin:jsdoc/recommended"
   ],
@@ -17,7 +14,6 @@
     "mocha": true
   },
   "plugins": [
-    "import",
     "immutable",
     "security",
     "no-loops",
@@ -28,6 +24,13 @@
     "mocha"
   ],
   "rules": {
+
+
+
+    "no-case-declarations": "error",
+    "no-cond-assign": "error",
+    "no-new-object": "error",
+    "require-yield": "error",
 
 
     "callback-return": "error",
@@ -44,19 +47,11 @@
 
 
 
-
-
-
-
-
-
-
-
     "semi": [
       "error",
       "never"
     ],
-    "no-console": "off",
+    "no-console": ["warn", { "allow": [ "assert" ]}],
     "no-await-in-loop": "error",
     "no-extra-parens": [
       "error",
@@ -92,7 +87,7 @@
     "no-else-return": [
       "error",
       {
-        "allowElseIf": true
+        "allowElseIf": false
       }
     ],
     "no-empty-function": "error",
@@ -143,7 +138,7 @@
         "message": "__defineSetter__ is deprecated."
       }
     ],
-    "no-return-assign": "error",
+    "no-return-assign": [ "error", "always" ],
     "no-return-await": "error",
     "no-script-url": "error",
     "no-self-compare": "error",
@@ -166,7 +161,7 @@
     "radix": "error",
     "require-await": "warn",
     "vars-on-top": "error",
-    "wrap-iife": "error",
+    "wrap-iife": [ "error", "inside"],
     "yoda": "error",
     "strict": "error",
     "init-declarations": "error",
@@ -255,50 +250,6 @@
         "tabWidth": 2
       }
     ],
-    "import/no-unresolved": "error",
-    "import/named": "error",
-    "import/default": "error",
-    "import/namespace": "error",
-    "import/no-restricted-paths": "error",
-    "import/no-absolute-path": "error",
-    "import/no-dynamic-require": "error",
-    "import/no-internal-modules": [
-      "error",
-      {
-        "allow": [
-          "internal/*"
-        ]
-      }
-    ],
-    "import/no-webpack-loader-syntax": "error",
-    "import/no-self-import": "error",
-    "import/no-cycle": "error",
-    "import/no-useless-path-segments": "error",
-    "import/export": "error",
-    "import/no-named-as-default": "error",
-    "import/no-named-as-default-member": "error",
-    "import/no-deprecated": "error",
-    "import/no-extraneous-dependencies": "error",
-    "import/no-mutable-exports": "error",
-    "import/unambiguous": "warn",
-    "import/no-commonjs": "warn",
-    "import/no-amd": "error",
-    "import/no-nodejs-modules": "error",
-    "import/first": "error",
-    "import/exports-last": "warn",
-    "import/no-duplicates": "error",
-    "import/no-namespace": "error",
-    "import/extensions": "error",
-    "import/order": "error",
-    "import/newline-after-import": "error",
-    "import/prefer-default-export": "warn",
-    "import/max-dependencies": "error",
-    "import/no-unassigned-import": "error",
-    "import/no-named-default": "error",
-    "import/no-default-export": "error",
-    "import/no-anonymous-default-export": "error",
-    "import/group-exports": "warn",
-    "import/dynamic-import-chunkname": "error",
     "immutable/no-let": "warn",
     "immutable/no-this": "warn",
     "immutable/no-mutation": "warn",
@@ -514,12 +465,13 @@
       "error",
       "single",
       {
-        "avoidEscape": true
+        "avoidEscape": true,
+        "allowTemplateLiterals": false
       }
     ],
     "quote-props": [
       "error",
-      "consistent"
+      "consistent-as-needed"
     ],
     "semi-spacing": "error",
     "space-before-blocks": [
@@ -560,7 +512,7 @@
       {
         "ignoreRequire": true,
         "identifiers": false,
-        "minLength": 3,
+        "minLength": 4,
         "skipWords": [
           "johntalton"
         ]
