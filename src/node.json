@@ -2,9 +2,6 @@
   "extends": [
     "plugin:node/recommended"
   ],
-  "pligins": [
-
-  ],
   "env": {
     "node": true
   },
