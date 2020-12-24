@@ -30,7 +30,7 @@
     "node/no-sync": "error",
     "node/prefer-global/text-decoder": "error",
     "node/prefer-global/text-encoder": "error",
-    "node/prefer-global/urll-search-params": "error",
+    "node/prefer-global/url-search-params": "error",
     "node/prefer-promises/fs": "error"
   }
 }
