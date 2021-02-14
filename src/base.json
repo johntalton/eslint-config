@@ -2,8 +2,7 @@
   "root": true,
   "extends": [
     "eslint:recommended",
-    "plugin:security/recommended",
-    "plugin:jsdoc/recommended"
+    "plugin:security/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": 2020,
@@ -19,7 +18,6 @@
     "no-loops",
     "fp",
     "no-use-extend-native",
-    "jsdoc",
     "spellcheck",
     "mocha"
   ],
@@ -285,21 +283,6 @@
     "fp/no-unused-expression": "warn",
     "fp/no-valueof-field": "error",
     "no-use-extend-native/no-use-extend-native": "error",
-    "jsdoc/check-param-names": "error",
-    "jsdoc/check-tag-names": "error",
-    "jsdoc/check-types": "error",
-    "jsdoc/newline-after-description": "error",
-    "jsdoc/no-undefined-types": "error",
-    "jsdoc/require-description-complete-sentence": "error",
-    "jsdoc/require-example": "off",
-    "jsdoc/require-hyphen-before-param-description": "off",
-    "jsdoc/require-param": "error",
-    "jsdoc/require-param-description": "error",
-    "jsdoc/require-param-name": "error",
-    "jsdoc/require-param-type": "off",
-    "jsdoc/require-returns-description": "error",
-    "jsdoc/require-returns-type": "off",
-    "jsdoc/valid-types": "error",
     "accessor-pairs": "error",
     "arrow-spacing": [
       "error",
