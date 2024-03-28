@@ -14,5 +14,10 @@
   "rules": {
     "semi": ["Error", "never"],
     "no-tabs": "off",
+    "indent": [
+			"error",
+			"tab"
+		],
   }
 }
+
