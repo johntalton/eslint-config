@@ -12,6 +12,7 @@
     }
   },
   "rules": {
-    "semi": ["Error", "never"]
+    "semi": ["Error", "never"],
+    "no-tabs": "off",
   }
 }
